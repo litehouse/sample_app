@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 group :development, :test do
   gem 'pg'
   gem 'rspec-rails'
+  gem 'capybara', '1.1.2'
 end
 
 
@@ -42,7 +43,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '1.1.2'
 end
 
 group :production do

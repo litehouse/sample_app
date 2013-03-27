@@ -46,6 +46,7 @@ test:
   pool: 5
   username: litehouse
   password: thunder
+  host: localhost
 
 production:
   adapter: postgresql
